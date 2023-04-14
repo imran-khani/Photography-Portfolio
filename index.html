@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography Portfolio</title>
+  </head>
+  <body>
+    <!-- hero section with nav inside  -->
+    <section class="grey-gradient pb-5">
+      <nav>
+        <div class="max-w-6xl mx-auto px-4">
+          <div class="flex justify-between py-3">
+            <!-- logo -->
+            <div class="space-x-1 flex items-center gap-1">
+              <a href="#">
+                <img src="public/Logo.svg" alt="logo" class="h-10 w-10" />
+              </a>
+              <span class="font-medium">Capture Studio</span>
+            </div>
+            <div class="md:flex hidden">
+              <ul class="flex text-primary text-sm gap-8">
+                <li class="py-2 px-3">
+                  <a href="#">Projects</a>
+                </li>
+                <li class="py-2 px-3">
+                  <a href="#">Portraits</a>
+                </li>
+                <li class="py-2 px-3">
+                  <a href="#">Fashion</a>
+                </li>
+                <li class="py-2 px-3">
+                  <a href="#">Fine Art</a>
+                </li>
+                <button
+                  class="border border-primary w-[96px] px-5 rounded-md hover:bg-primary hover:transition-all hover:ease-in-out duration-1000 hover:text-gray-800"
+                >
+                  <a href="#">Contact</a>
+                </button>
+              </ul>
+            </div>
+
+            <div>
+              <div class="md:hidden flex items-center">
+                <button class="mobile-menu-button">
+                  <svg
+                    class="w-6 h-6"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h16M4 18h16"
+                    />
+                  </svg>
+                </button>
+              </div>
+              <!-- mobile menu -->
+              <div class="mobile-menu hidden md:hidden">
+                <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200"
+                  >Features</a
+                >
+                <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200"
+                  >Pricing</a
+                >
+              </div>
+            </div>
+            
+          
+          </div>
+        </div>
+      </nav>
+      <div class="max-w-6xl mx-auto mt-20">
+        <div class="flex justify-between py-3 flex-col">
+          <div class="flex flex-col flex-1 md:pt-28">
+            <h1 class="md:w-[680px] mb-6">We Capture the World</h1>
+            <p class="w-[430px] text-md">
+              At our studio, we don't just take pictures - we capture the world.
+              Our passion for photography goes beyond just snapping a photo - we
+              strive to create images that tell a story, evoke emotions, and
+              capture the essence of the world around us.
+            </p>
+            <img
+              src="public/video_icon.svg"
+              class="max-w-[66px] mt-6 -ml-4"
+              alt=""
+            />
+          </div>
+          <div class="flex flex-1">
+            <img
+              src="public/hero img.png"
+              class="md:w-[496px] w-[346px] md:h-[680px]"
+              alt="hero_img"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work section  -->
+    <section class="py-5 bg-[#0E1513]">
+      <div class="max-w-6xl mx-auto px-3">
+        <div class="text-left">
+          <h2 class="font-bold text text-center md:text-left">Our work</h2>
+        </div>
+        <div class="flex py-16 gap-5 flex-col">
+          <!-- img container  -->
+          <div class="flex flex-col gap-5">
+            <img
+              src="public/work section/work_img1.png"
+              class="w-[380px] h-[500px] rounded"
+            />
+            <div>
+              <span class="text-sm opacity-50">2018</span>
+              <h4 class="text-lg">Aisha Patel</h4>
+            </div>
+          </div>
+          <div class="flex flex-col gap-5">
+            <img
+              src="public/work section/work_img2.png"
+              class="w-[380px] h-[500px] rounded"
+            />
+            <div>
+              <span class="text-sm opacity-50">2021</span>
+              <h3 class="text-lg">Isabella Costa</h3>
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-5">
+            <img
+              src="public/work section/work_img3.png"
+              class="w-[380px] h-[500px] rounded"
+            />
+            <div>
+              <span class="text-sm opacity-50">2022</span>
+              <h3 class="text-lg">Fatima Hassan</h3>
+            </div>
+          </div>
+        </div>
+        <p class="text-right">
+          <a
+            href="#"
+            class="border border-primary py-2 px-3 rounded-md hover:bg-primary hover:text-gray-800 hover:transition ease-in duration-500"
+            >View all work</a
+          >
+        </p>
+      </div>
+    </section>
+
+    <main class="grey-gradient">
+      <!-- case study section  -->
+      <section class="py-10">
+        <div class="max-w-6xl mx-auto px-4 mt-20">
+          <div class="flex justify-between flex-col gap-5 lg:flex-row gap-x-28">
+            <div class="flex flex-col md:pt-28 pt-3">
+              <span class="text-sm">March 2022</span>
+              <h3 class="leading-[105px] text-2xl">Gabriela Silva</h3>
+              <p class="md:w-[450px] text-md">
+                Cras semper auctor neque vitae tempus. Neque volutpat ac
+                tincidunt vitae. Eros donec ac odio tempor orci dapibus
+                ultrices. Eget mauris pharetra et ultrices neque ornare. Metus
+                aliquam eleifend mi in nulla posuere sollicitudin aliquam. Nunc
+                id cursus metus aliquam eleifend mi.
+              </p>
+              <p class="pt-10">
+                <a
+                  href="#"
+                  class="border border-primary py-2 px-3 rounded-md hover:bg-primary hover:text-gray-800 hover:transition ease-in duration-500"
+                  >View case study</a
+                >
+              </p>
+            </div>
+            <div class="flex flex-1 pt-5">
+              <img
+                src="public/case_study_img.png"
+                class="md:w-[560px] md:h-[640px] w-[346px] h-[395px] rounded-md"
+                alt="hero_img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- case study section 2  -->
+      <section class="py-10">
+        <div class="max-w-6xl mx-auto px-4">
+          <div
+            class="flex justify-between md:gap-x-28 flex-col lg:flex-row lg:mx-auto"
+          >
+            <div class="flex">
+              <img
+                src="public/case_study2.png"
+                class="md:w-[560px] w-[346px] md:h-[640px] h-[395px] rounded-md"
+                alt="hero_img"
+              />
+            </div>
+            <div class="flex flex-col md:pt-28 pt-3">
+              <span class="text-sm">March 2022</span>
+              <h3 class="leading-[105px] text-2xl">Amara Lopez</h3>
+              <p class="md:w-[450px] w-[346px] text-md">
+                Cras semper auctor neque vitae tempus. Neque volutpat ac
+                tincidunt vitae. Eros donec ac odio tempor orci dapibus
+                ultrices. Eget mauris pharetra et ultrices neque ornare. Metus
+                aliquam eleifend mi in nulla posuere sollicitudin aliquam. Nunc
+                id cursus metus aliquam eleifend mi.
+              </p>
+              <p class="pt-10">
+                <a
+                  href="#"
+                  class="border border-primary py-2 px-3 rounded-md hover:bg-primary hover:text-gray-800 hover:transition ease-in duration-500"
+                  >View case study</a
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- case study section 3  -->
+      <section class="py-10">
+        <div class="max-w-6xl mx-auto px-4 mt-10">
+          <div
+            class="flex justify-between py-3 md:gap-x-28 flex-col gap-10 lg:flex-row items-center"
+          >
+            <div class="flex flex-col md:pt-28 pt-3 md:text-left gap-5">
+              <span class="text-sm">September 2021</span>
+              <h3 class="text-2xl">Priya Patel</h3>
+              <p class="md:w-[450px] w-[350px] text-md">
+                Et malesuada fames ac turpis egestas maecenas pharetra
+                convallis. Aenean vel elit scelerisque mauris. Gravida neque
+                convallis a cras semper auctor neque vitae. Habitasse platea
+                dictumst quisque sagittis. Gravida neque convallis a cras
+                semper.
+              </p>
+              <p class="pt-3">
+                <a
+                  href="#"
+                  class="border border-primary py-2 px-3 rounded-md hover:bg-primary hover:text-gray-800 hover:transition ease-in duration-500"
+                  >View case study</a
+                >
+              </p>
+            </div>
+            <div class="flex flex-1">
+              <img
+                src="public/case_study3.png"
+                class="md:w-[560px] md:h-[640px] w-[346px] h-[395px] rounded-md"
+                alt="case_study3"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- collection section  -->
+      <section class="py-10">
+        <div class="max-w-6xl mx-auto mt-10 px-3">
+          <div class="flex flex-col text-center">
+            <span class="text-sm">November 2022</span>
+            <h3 class="text-2xl mb-5 md:mb-0">Victorian Collection</h3>
+            <img
+              src="public/collection.png"
+              class="md:w-[1070px] w-[490px] h-[245px] md:h-[625.5px]"
+              alt=""
+            />
+            <p class="text-center mb-14">
+              <a
+                href="#"
+                class="border border-primary py-2 px-3 rounded-md hover:bg-primary hover:text-gray-800 hover:transition ease-in duration-500"
+                >View all work</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- contact us section  -->
+      <section class="py-20 bg-[#0E1513] px-3">
+        <div class="max-w-6xl mx-auto">
+          <div class="flex flex-col text-center gap-6">
+            <h1 class="md:w-[674px] mx-auto text-center">
+              Capture the world with us
+            </h1>
+            <p class="md:w-[674px] md:mx-auto">
+              Libero justo laoreet sit amet cursus sit amet dictum sit.
+              Consequat nisl vel pretium lectus. In ornare quam viverra orci
+              sagittis eu volutpat odio. Euismod nisi porta lorem mollis aliquam
+              ut porttitor leo ac felis.
+            </p>
+          </div>
+          <p class="text-center mt-12">
+            <a
+              href="#"
+              class="border border-primary py-2 px-3 rounded-md hover:bg-primary hover:text-gray-800 hover:transition ease-in duration-500"
+              >Contact us</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-[#0E1513] py-20">
+      <div class="max-w-6xl mx-auto">
+        <div class="flex justify-between flex-col md:flex-row">
+          <div
+            class="flex items-center gap-3 mb-3 md:mb-0 justify-center md:justify-start"
+          >
+            <a href="#">
+              <img src="public/Logo.svg" alt="logo" class="h-10 w-10" />
+            </a>
+            <span class="font-medium">Capture Studio</span>
+          </div>
+          <div>
+            <ul
+              class="flex text-primary flex-col md:flex-row text-center text-sm gap-7"
+            >
+              <li class="py-2 px-3">
+                <a href="#">Projects</a>
+              </li>
+              <li class="py-2 px-3">
+                <a href="#">Portraits</a>
+              </li>
+              <li class="py-2 px-3">
+                <a href="#">Fashion</a>
+              </li>
+              <li class="py-2 px-3">
+                <a href="#">Fine Art</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="h-[1px] w-full bg-primary mt-20"></div>
+        <div
+          class="flex justify-between mt-9 items-center flex-col md:flex-row gap-5"
+        >
+          <div>
+            <p class="text-md">© 2023 Capture Studio. All rights reserved.</p>
+          </div>
+          <div class="flex gap-3">
+            <a href="#" class="text-primary">
+              <img src="public/social icons/fb_icon.png" alt="" />
+            </a>
+            <a href="#" class="text-primary">
+              <img src="public/social icons/insta_icon.png" alt="" /> </a
+            ><a href="#" class="text-primary">
+              <img src="public/social icons/twitter_icon.png" alt="" /> </a
+            ><a href="#" class="text-primary">
+              <img src="public/social icons/linkedin_icon.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

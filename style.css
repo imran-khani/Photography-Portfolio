@@ -1,0 +1,33 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.grey-gradient {
+  background: linear-gradient(
+      233.95deg,
+      #0d1e20 -73.12%,
+      #313e2a 53.36%,
+      #262d20 103.17%
+    ),
+    #ffffff;
+}
+
+@layer components {
+  h1 {
+    @apply font-medium md:text-3xl text-2xl leading-[50px] md:leading-[105px];
+  }
+  h2 {
+    @apply font-medium md:text-1xl text-2xl leading-[50px] md:leading-[105px];
+  }
+  h3 {
+    @apply leading-[50px] md:leading-[105px];
+  }
+  body {
+    /* applied default text-color for all website  */
+    @apply text-primary;
+  }
+  section,
+  footer {
+    @apply px-3;
+  }
+}
