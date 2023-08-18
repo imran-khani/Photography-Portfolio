@@ -12,6 +12,7 @@
     #ffffff;
 }
 
+
 @layer components {
   h1 {
     @apply font-medium md:text-3xl text-2xl leading-[50px] md:leading-[105px];

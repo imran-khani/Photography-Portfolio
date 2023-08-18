@@ -13,8 +13,8 @@
         <div class="max-w-6xl mx-auto px-4">
           <div class="flex justify-between py-3">
             <!-- logo -->
-            <div class="space-x-1 flex items-center gap-1">
-              <a href="#">
+            <div class="space-x-1 items-center justify-center flex gap-1">
+              <a href="#" class="">
                 <img src="public/Logo.svg" alt="logo" class="h-10 w-10" />
               </a>
               <span class="font-medium">Capture Studio</span>
@@ -41,45 +41,56 @@
               </ul>
             </div>
 
-            <div>
-              <div class="md:hidden flex items-center">
-                <button class="mobile-menu-button">
-                  <svg
-                    class="w-6 h-6"
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M4 6h16M4 12h16M4 18h16"
-                    />
-                  </svg>
-                </button>
-              </div>
-              <!-- mobile menu -->
-              <div class="mobile-menu hidden md:hidden">
-                <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200"
-                  >Features</a
+            <div class="md:hidden flex items-center">
+              <button class="mobile-menu-button">
+                <svg
+                  class="w-6 h-6"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
                 >
-                <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200"
-                  >Pricing</a
-                >
-              </div>
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
             </div>
-            
-          
+            <!-- mobile menu -->
+            <!-- <div class="mobile-menu hidden md:hidden">
+                <ul class="flex text-primary text-sm flex-col bg-white">
+                  <li class="py-2 px-3">
+                    <a href="#">Projects</a>
+                  </li>
+                  <li class="py-2 px-3">
+                    <a href="#">Portraits</a>
+                  </li>
+                  <li class="py-2 px-3">
+                    <a href="#">Fashion</a>
+                  </li>
+                  <li class="py-2 px-3">
+                    <a href="#">Fine Art</a>
+                  </li>
+                  <li class="py-2 px-3">
+                    <button
+                      class="border border-primary w-[96px] px-5 rounded-md hover:bg-primary hover:transition-all hover:ease-in-out duration-1000 hover:text-gray-800"
+                    >
+                      <a href="#">Contact</a>
+                    </button>
+                  </li>
+                </ul>
+              </div> -->
           </div>
         </div>
       </nav>
       <div class="max-w-6xl mx-auto mt-20">
         <div class="flex justify-between py-3 flex-col md:flex-row">
-          <div class="flex flex-col flex-1 md:pt-28 ">
+          <div class="flex flex-col flex-1 md:pt-28">
             <h1 class="md:w-[680px] mb-6">We Capture the World</h1>
-            <p class="w-[430px] text-md">
+            <p class="md:w-[430px] text-md">
               At our studio, we don't just take pictures - we capture the world.
               Our passion for photography goes beyond just snapping a photo - we
               strive to create images that tell a story, evoke emotions, and
@@ -202,7 +213,7 @@
             <div class="flex flex-col md:pt-28 pt-3">
               <span class="text-sm">March 2022</span>
               <h3 class="leading-[105px] text-2xl">Amara Lopez</h3>
-              <p class="md:w-[450px] w-[346px] text-md">
+              <p class="md:w-[450px] text-md">
                 Cras semper auctor neque vitae tempus. Neque volutpat ac
                 tincidunt vitae. Eros donec ac odio tempor orci dapibus
                 ultrices. Eget mauris pharetra et ultrices neque ornare. Metus
@@ -229,7 +240,7 @@
             <div class="flex flex-col md:pt-28 pt-3 md:text-left gap-5">
               <span class="text-sm">September 2021</span>
               <h3 class="text-2xl">Priya Patel</h3>
-              <p class="md:w-[450px] w-[350px] text-md">
+              <p class="md:w-[450px] text-md">
                 Et malesuada fames ac turpis egestas maecenas pharetra
                 convallis. Aenean vel elit scelerisque mauris. Gravida neque
                 convallis a cras semper auctor neque vitae. Habitasse platea
@@ -247,7 +258,7 @@
             <div class="flex flex-1">
               <img
                 src="public/case_study3.png"
-                class="md:w-[560px] md:h-[640px] w-[346px] h-[395px] rounded-md"
+                class="md:w-[560px] md:h-[640px] w-[346px] h-[395px] object-cover rounded-md"
                 alt="case_study3"
               />
             </div>
@@ -263,7 +274,7 @@
             <h3 class="text-2xl mb-5 md:mb-0">Victorian Collection</h3>
             <img
               src="public/collection.png"
-              class="md:w-[1070px] w-[490px] h-[245px] md:h-[625.5px]"
+              class="md:w-[1070px] w-[490px] object-cover h-[245px] md:h-[625.5px]"
               alt=""
             />
             <p class="text-center mb-14">
